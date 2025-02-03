@@ -1,0 +1,7 @@
+import numpy as np
+I=np. array ([[4,3,2],[1,4,1],[3,10 ,4]])
+print ("\n Given matrix : \n", I)
+w,v = np. linalg .eig (I)
+for i in range(3):
+print ("\nEigen value : ", w[i])
+print ("Corresponding Eigen vector :", v[ : , i])
